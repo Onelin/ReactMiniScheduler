@@ -1,0 +1,14 @@
+{
+  "name": "ReactMiniScheduler",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": "Onein",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "vite": "^2.9.7"
+  },
+  "dependencies": {
+    "scheduler": "0.20.2"
+  }
+}
