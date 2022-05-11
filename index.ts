@@ -27,7 +27,7 @@ import {
 
 import './style.css'
 
-type Priority = | IdlePriority | NormalPriority | ImmediatePriority | LowPriority | UserblockingPriority;
+type Priority = typeof IdlePriority | typeof NormalPriority | typeof ImmediatePriority | typeof LowPriority | typeof UserBlockingPriority;
 
 
 interface Work {
